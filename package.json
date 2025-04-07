@@ -4,7 +4,7 @@
   "description": "An easy way to read material in target language of study, while retrieving machine translations in your language.",
   "main": "dist/client/app.ts",
   "scripts": {
-    "start": "tsc && node dist/app.js",
+    "start": "tsc -p server/tsconfig.json && node dist/client/app.js",
     "lint": "eslint . --ext .ts",
     "test": "node test/index.ts"
   },
