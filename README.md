@@ -20,6 +20,7 @@ As well, you can install [Volar](https://marketplace.visualstudio.com/items?item
 - `vite` - Frontend build framework. 
 - `source-map-support`
 - `react` / `react-dom`
+- `babel` 
 
 ## Scripts
 - `npm run start` - starts the project
