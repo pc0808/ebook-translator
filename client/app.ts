@@ -1,18 +1,9 @@
-// import "@/assets/main.css";
-// import "purecss";
+import { createRoot } from 'react-dom/client';
 
-// import { createPinia } from "pinia";
-// import piniaPluginPersistedState from "pinia-plugin-persistedstate";
-// import { createApp } from "vue";
+// Clear the existing HTML content
+document.body.innerHTML = '<div id="app"></div>';
+console.log('Cleared HTML content');
 
-// import App from "./App.vue";
-// import router from "./router";
-
-// const app = createApp(App);
-// const pinia = createPinia();
-// pinia.use(piniaPluginPersistedState);
-
-// app.use(pinia);
-// app.use(router);
-
-// app.mount("#app");
+// Render your React component instead
+//const root = createRoot(document.getElementById('app'));
+//root.render(<h1>Hello, world</h1>);

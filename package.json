@@ -22,7 +22,9 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.17.1",
-    "express-session": "^1.18.1"
+    "express-session": "^1.18.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.1",

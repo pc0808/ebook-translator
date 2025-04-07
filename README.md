@@ -19,6 +19,7 @@ As well, you can install [Volar](https://marketplace.visualstudio.com/items?item
 - `nodemon` - Automatically restarts server once change in source code is detected.
 - `vite` - Frontend build framework. 
 - `source-map-support`
+- `react` / `react-dom`
 
 ## Scripts
 - `npm run start` - starts the project
