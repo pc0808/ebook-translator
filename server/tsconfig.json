@@ -9,5 +9,8 @@
     "baseUrl": "./",
     "outDir": "../dist/"
   },
-  "lib": ["es2015"]
+  "lib": ["es2015"],
+  "include": ["./**/*.ts", "../api/index.ts"] 
+  /* Include all TypeScript files in the server directory and the api index file
+  Latter VERY important for establishing port*/
 }

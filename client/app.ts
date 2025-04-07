@@ -1,11 +1,18 @@
-import express from 'express';
-const app = express();
-const port = 3000;
+// import "@/assets/main.css";
+// import "purecss";
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
+// import { createPinia } from "pinia";
+// import piniaPluginPersistedState from "pinia-plugin-persistedstate";
+// import { createApp } from "vue";
 
-app.listen(port, () => {
-  return console.log(`Express is listening at http://localhost:${port}`);
-});
+// import App from "./App.vue";
+// import router from "./router";
+
+// const app = createApp(App);
+// const pinia = createPinia();
+// pinia.use(piniaPluginPersistedState);
+
+// app.use(pinia);
+// app.use(router);
+
+// app.mount("#app");
