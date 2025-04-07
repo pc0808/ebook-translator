@@ -6,7 +6,7 @@
   "scripts": {
     "start": "tsc -p server/tsconfig.json && node dist/client/app.js",
     "build:server": "tsc -p server/tsconfig.json",
-    "build:client": "vite build",
+    "build:client": "vite build && babel client -d dist/client --extensions .ts,.tsx --copy-files",
     "dev:server": "npm run build:server && concurrently \"tsc -p server/tsconfig.json --watch\" \"nodemon -r source-map-support/register dist/api/index.js\"",
     "dev:client": "vite",
     "lint": "eslint . --ext .ts",
@@ -19,6 +19,8 @@
   "author": "pc0808",
   "license": "ISC",
   "dependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.17.1",
